@@ -190,7 +190,7 @@ Quay에 등록된 HelmCharts를 OpenShift에 배포해보겠습니다.
 - 출력 메시지 예시
 
   ```bash
-  [hyou-redhat.com@bastion ~]$ helm pull oci://quay.apps.ocp4.sandbox298.opentlc.com/helm_team/etherpad --version=0.0.4
+  $ helm pull oci://quay.apps.ocp4.sandbox298.opentlc.com/helm_team/etherpad --version=0.0.4
   Pulled: quay.apps.ocp4.sandbox298.opentlc.com/helm_team/etherpad:0.0.4
   Digest: sha256:74420a94f26201498cc0cd7356952a208391a30ac9770dd36092de97df594d3b
   quay.apps.ocp4.sandbox298.opentlc.com/helm_team/etherpad:0.0.4 contains an underscore.
