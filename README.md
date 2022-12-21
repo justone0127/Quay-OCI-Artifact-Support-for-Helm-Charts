@@ -101,7 +101,7 @@ Helm CLI 사용을 위해 바이너리 파일을 설치합니다.
   - 파일 확인
 
     ```bash
-  $ ls -rlt
+    $ ls -rlt
     total 36
     --- 생략 ---
     -rw-r--r--. 1 user users 3568 Dec 21 01:37 etherpad-0.0.4.tgz
@@ -206,7 +206,7 @@ Quay에 등록된 HelmCharts를 OpenShift에 배포해보겠습니다.
   Quay에서 다운로드 된 Helm Charts 패키지 파일이 확인 됩니다.
 
   ```bash
-$ ls -rlt
+  [hyou-redhat.com@bastion ~]$ ls -rlt
   total 36
   --- 생략 ---
   -rw-r--r--. 1 user users 3568 Dec 21 02:51 etherpad-0.0.4.tgz
