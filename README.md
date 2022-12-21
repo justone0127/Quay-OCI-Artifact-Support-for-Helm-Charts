@@ -101,10 +101,10 @@ Helm CLI 사용을 위해 바이너리 파일을 설치합니다.
   - 파일 확인
 
     ```bash
-    [hyou-redhat.com@bastion ~]$ ls -rlt
+  $ ls -rlt
     total 36
     --- 생략 ---
-    -rw-r--r--. 1 hyou-redhat.com users 3568 Dec 21 01:37 etherpad-0.0.4.tgz
+    -rw-r--r--. 1 user users 3568 Dec 21 01:37 etherpad-0.0.4.tgz
     ```
 
     > Helm 3.8.0 버전부터, OCI 지원은 오랜 시간이 지난 후 "실험적" 기능으로 완전히 지원되었습니다. 이전 버전의 Helm CLI가 설치된 경우 환경 변수  HELM_EXPERIMENTAL_OCI=1: 을 설정해야 합니다.
@@ -206,10 +206,10 @@ Quay에 등록된 HelmCharts를 OpenShift에 배포해보겠습니다.
   Quay에서 다운로드 된 Helm Charts 패키지 파일이 확인 됩니다.
 
   ```bash
-  [hyou-redhat.com@bastion ~]$ ls -rlt
+$ ls -rlt
   total 36
   --- 생략 ---
-  -rw-r--r--. 1 hyou-redhat.com users 3568 Dec 21 02:51 etherpad-0.0.4.tgz
+  -rw-r--r--. 1 user users 3568 Dec 21 02:51 etherpad-0.0.4.tgz
   ```
 
 ### 7.2 Creating a new project
