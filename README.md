@@ -34,15 +34,15 @@ Application Registry 기능을 활성화하기 위해서는 Quay Config 설정�
 
   OCP 콘솔 접속 > quay 프로젝트 선택 > Operator > 설치된 Operator > Red Hat Quay > Quay Registry > 인스턴스 선택 > *Config Editor Credentials Secret* : ${INSTANCE_NAME}-quay-config-editor-credentials-${ID}
 
-  ![01_quayconfig_info](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\01_quayconfig_info.png)
+  ![01_quayconfig_info](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/01_quayconfig_info.png)
 
   - 값 표시를 선택해서 ID/PWD를 확인
 
-    ![02_quayconfig_info2](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\02_quayconfig_info2.png)
+    ![02_quayconfig_info2](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/02_quayconfig_info2.png)
 
 - Application Registry 설정 활성화
 
-  ![03_application_registry](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\03_application_registry.png)
+  ![03_application_registry](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/03_application_registry.png)
 
 - Validate Configuration Changes 선택 후 재 배포
 
@@ -50,7 +50,7 @@ Application Registry 기능을 활성화하기 위해서는 Quay Config 설정�
 
 Quay Console에 접속하면 그림에서 보는 것처럼 APPLICATIONS 메뉴가 활성화 된 것을 확인 할 수 있습니다.
 
-![04_application_repository](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\04_application_repository.png)
+![04_application_repository](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/04_application_repository.png)
 
 ### 3. Installing Helm
 
@@ -115,15 +115,15 @@ Helm Chart를 Quay에 올리기 전에 먼저 Chart를 포함할 조직을 사�
 
 - Quay Console 접속 > 오른쪽 위 **+** 버튼 선택 > New Organization 선택
 
-  ![05_helm_new_organization](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\05_helm_new_organization.png)
+  ![05_helm_new_organization](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/05_helm_new_organization.png)
 
 - 생성할 조직이름을 입력하고 조직을 생성
 
-  ![06_helm_creating_new_organization](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\06_helm_creating_new_organization.png)
+  ![06_helm_creating_new_organization](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/06_helm_creating_new_organization.png)
 
 - 생성된 조직 확인
 
-  ![07_helm_organization](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\07_helm_organization.png)
+  ![07_helm_organization](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/07_helm_organization.png)
 
 ### 6. Interacting with Helm and Quay
 
@@ -167,7 +167,7 @@ Helm Registry에 로그인하기 위해서는 Quay Registry 도메인의 신뢰 
 
   다음과 같이 helm_team 조직 내에 etherpad라는 이름의 새로운 레포지토리가 생성되었고, 그 안에 0.0.4 버전의 charts가 업로드 된 것을 확인 할 수 있습니다.
 
-  ![08_push_helmchart](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\08_push_helmchart.png)
+  ![08_push_helmchart](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/08_push_helmchart.png)
 
 - 로컬에 있는 Helm Chart 파일 삭제
 
@@ -239,19 +239,19 @@ Quay에 등록된 HelmCharts를 OpenShift에 배포해보겠습니다.
 
 - 개발자 콘솔 토폴로지뷰 확인
 
-  ![09_topolozy_view](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\09_topolozy_view.png)
+  ![09_topolozy_view](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/09_topolozy_view.png)
 
 - Helm 확인
 
   OpenShift 콘솔 화면에서 Helm 메뉴에서 Helm Charts에 대한 정보를 확인할 수 있습니다.
 
-  ![10_helm_info](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\10_helm_info.png)
+  ![10_helm_info](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/10_helm_info.png)
 
 - Helm Charts Resource 확인
 
   Helm Charts에 포함된 리소스 목록을 확인할 수 있습니다.
 
-  ![11_helm_resource](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\11_helm_resource.png)
+  ![11_helm_resource](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/11_helm_resource.png)
 
 ### 8. Application Access
 
@@ -259,7 +259,7 @@ Quay에 등록된 HelmCharts를 OpenShift에 배포해보겠습니다.
 
 개발자 콘솔 토폴로지 뷰에서 컨테이너의 위로 향한 화살표 모양(라우트)을 선택하여 Application을 호출합니다.
 
-![12_route](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\12_route.png)
+![12_route](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/12_route.png)
 
 또는 CLI 명령을 통해 라우트 정보를 확인 할 수 있습니다.
 
@@ -273,7 +273,7 @@ etherpad-1671591456   etherpad-1671591456-helm-demo.apps.ocp4.sandbox298.opentlc
 
 - 애플리케이션 접속 확인
 
-  ![13_application](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\quay_helm\13_application.png)
+  ![13_application](https://github.com/justone0127/Quay-OCI-Artifact-Support-for-Helm-Charts/blob/main/quay_helm/13_application.png)
 
 > 이번 랩을 통해 Quay Registry를  이미지 레지스트리가 아닌 Helm Charts Repository로도 사용이 가능하다라는 것을 확인할 수 있었습니다. OpenShift에서는 Helm CLI 및 Helm을 통한 애플리케이션 배포, GUI 환경에서 리소스를 확인할 수 있으므로 보다 용이하게 컨테이너를 관리하는 환경에서 사용 할 수 있습니다.
 
